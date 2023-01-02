@@ -1,0 +1,17 @@
+{
+  "name": "@pkg/utils",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "module": "index.ts",
+  "scripts": {
+    "resetapp": "pnpm rimraf node_modules && pnpm rimraf dist && pnpm rimraf .turbo",
+    "clearn": "pnpm rimraf && pnpm rimraf .turbo"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.6"
+  }
+}
